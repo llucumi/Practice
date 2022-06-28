@@ -18,7 +18,7 @@ func main(){
 	fmt.Println("Cantidad de empleados mayores a 21 años:",suma)
 
 	//Agregar empleado nuevo
-	employees["Luz"] = 26
+	employees["Federico"] = 25
 	fmt.Println("Empleados con nuevo empleado:\n",employees)
 
 	//Eliminar a Pedro del mapa
