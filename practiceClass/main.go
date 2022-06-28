@@ -1,7 +1,7 @@
 package main
 
-import 
+import "fmt"
 
 func main(){
-	fmt.Println("Practice at class")
+	fmt.Println("Practice at class! :3")
 }
