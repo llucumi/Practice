@@ -9,6 +9,4 @@ func main(){
 	default:
 		fmt.Println("Es impar")
 	}
-
-	fmt.Println("Practicando el switch")
 }
