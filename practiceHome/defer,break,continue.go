@@ -2,17 +2,17 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 	//Defer
 	defer fmt.Println("Hola")
 	fmt.Println("Mundo")
 
 	//continue y break
-	for i := 0; i < 10 ; i++{
+	for i := 0; i < 10; i++ {
 		fmt.Println(i)
 
 		//Continue
-		if i==2 {
+		if i == 2 {
 			fmt.Println("Es 2")
 			continue
 		}
