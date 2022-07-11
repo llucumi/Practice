@@ -14,6 +14,7 @@ func main() {
 	//para manejar usamos la función que retorna un 200 y un (TERCER MANEJADOR)
 
 	//git.H es lo mismo 	ue map[string] interface{}
+	//el Contexto tiene un montón de métodos para las response
 	router.GET("/hello-world", func(c *gin.Context) {
 		//respuesta tipo JSON
 		c.JSON(200, gin.H{
