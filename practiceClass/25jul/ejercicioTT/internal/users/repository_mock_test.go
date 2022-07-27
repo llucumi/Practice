@@ -38,7 +38,7 @@ func TestUpdate(t *testing.T) {
 
 	testUpdateUsersThen := []domain.Usuarios{
 		{Id: 2, Nombre: "Marcela", Apellido: "Martinez", Email: "marcela@hotmail.com", Edad: 28, Altura: 1.67},
-		{Id: 3, Nombre: "Marcelo", Apellido: "Moncada", Email: "marcelo@hotmail.com", Edad: 20, Altura: 1.82},
+		{Id: 3, Nombre: "Marcelo", Apellido: "Moncada", Email: "marcelo@hotmail.com", Edad: 21, Altura: 1.83},
 	}
 
 	info_update := &MockStore{
